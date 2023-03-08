@@ -10,9 +10,9 @@ export const FeedbackOptions = ({ incrementNeutral, incrementGood, incrementBad 
 )
 
 FeedbackOptions.propTypes = {
-        incrementNeutral: PropTypes.func.isRequired,
-        incrementGood: PropTypes.func.isRequired, 
-        incrementBad: PropTypes.func.isRequired
+        incrementNeutral: PropTypes.func,
+        incrementGood: PropTypes.func, 
+        incrementBad: PropTypes.func
 }
 
 
