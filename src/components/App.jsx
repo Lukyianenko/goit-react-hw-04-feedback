@@ -36,9 +36,9 @@ export const App = () => {
       title="Please leave feedback"
       >
         <FeedbackOptions 
-        incrementNeutral={() => setGood(good + 1)}
-        incrementBad={() => setNeutral(neutral + 1)}
-        incrementGood={() => setBad(bad + 1)}
+        incrementNeutral={() => setNeutral(neutral + 1)}
+        incrementBad={() => setBad(bad + 1)}
+        incrementGood={() => setGood(good + 1)}
         />
         {countTotalFeedback() !== 0  ? 
         <Statistics 
